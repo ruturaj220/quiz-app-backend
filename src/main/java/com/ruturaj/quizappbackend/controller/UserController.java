@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = "https://ruturaj220.github.io")
+@CrossOrigin(origins = "https://ruturaj220.github.io/quiz-app-frontend/")
 public class UserController {
 
     private final UserService userService;
