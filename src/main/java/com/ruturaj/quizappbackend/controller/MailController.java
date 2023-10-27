@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Random;
 
 @RestController
-@CrossOrigin(origins = " https://ruturaj220.github.io/quiz-app-frontend")
+@CrossOrigin(origins = "https://ruturaj220.github.io/quiz-app-frontend")
 @RequestMapping("/mail")
 public class MailController {
 

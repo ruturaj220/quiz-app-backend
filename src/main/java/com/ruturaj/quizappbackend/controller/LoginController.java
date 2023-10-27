@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = " https://ruturaj220.github.io/quiz-app-frontend")
+@CrossOrigin(origins = "https://ruturaj220.github.io/quiz-app-frontend")
 public class LoginController {
     private final UserRepository userRepository;
 
