@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/quiz")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://ruturaj220.github.io/quiz-app-frontend/")
 public class QuizController {
 
     private final QuizService quizService;
